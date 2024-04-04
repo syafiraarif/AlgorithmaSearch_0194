@@ -54,7 +54,7 @@ void LinearSearch()
             i++;                                                 //step 4
         }
 
-        if (i == n)
+        if (i == n)                                             //step 5
             cout << "\n" << item << "not found in the array\n";
         cout << "\nNumber of comparisons: " << ctr << endl;
 
@@ -71,8 +71,12 @@ void display()
         cout << arr[i] << " ";
     cout << endl;
 }
+
 int main()
 {
+    input();
+    LinearSearch();
+    display();
     
 }
 
