@@ -27,6 +27,10 @@ void input()
     {
         cout << "<" << (i + 1) << "> ";
     }
+}
+
+void LinearSearch()
+{
 
 }
 int main()
